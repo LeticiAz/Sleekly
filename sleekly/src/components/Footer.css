@@ -1,0 +1,19 @@
+.footer {
+    padding: 60px 80px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer img {
+    width: 150px;
+  }
+  
+  .footer-info p,
+  .footer-info a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+  }

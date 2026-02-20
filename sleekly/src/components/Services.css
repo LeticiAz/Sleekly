@@ -1,0 +1,29 @@
+.services {
+    padding: 100px 80px;
+    text-align: center;
+    background-color: #fafafa;
+  }
+  
+  .tabs {
+    margin-bottom: 40px;
+  }
+  
+  .tabs button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  
+  .tabs button.active {
+    background: #000;
+    color: white;
+  }
+  
+  .tab-content {
+    max-width: 600px;
+    margin: auto;
+  }
