@@ -1,10 +1,12 @@
 import React from "react";
 import "./Footer.css";
+import logo from "../resources/Sleekly Clean_Sleekly.png";
+
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src="/logo.png" alt="Sleekly Logo" />
+      <img src={logo} alt="Sleekly Logo" className="hero-logo" />
 
       <div className="footer-info">
         <p>+351 912 345 678</p>

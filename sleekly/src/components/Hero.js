@@ -1,12 +1,13 @@
 import React from "react";
 import "./Hero.css";
 import AskButton from "./AskButton";
+import logo from "../resources/Sleekly Clean_Sleekly.png";
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-left">
-        <img src="./resources/logo.png" alt="Sleekly Logo" className="hero-logo" />
+      <img src={logo} alt="Sleekly Logo" className="hero-logo" />
 
         <h1>
           Limpeza e Cuidado com padrão Premium.
