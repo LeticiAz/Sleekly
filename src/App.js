@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "./components/Hero";
-import AskButton from "./components/AskButton";
 import Company from "./components/Company";
 import Services from "./components/Services";
 import Feedback from "./components/Feedback";
@@ -12,13 +11,9 @@ function App() {
     <>
         <Hero />
         <Company />
-        <AskButton />
         <Services />
-        <AskButton />
         <Feedback />
-        <AskButton />
         <Gallery />
-        <AskButton />
         <Footer />
     </>
   );

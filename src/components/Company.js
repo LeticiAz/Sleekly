@@ -1,5 +1,6 @@
 import React from "react";
 import "./Company.css";
+import SectionCTA from "./SectionCTA";
 
 const Company = () => {
   const advantages = [
@@ -20,6 +21,7 @@ const Company = () => {
           </div>
         ))}
       </div>
+      <SectionCTA />
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import SectionCTA from "./SectionCTA";
 
 const Gallery = () => {
   return (
@@ -52,6 +53,7 @@ const Gallery = () => {
             ></iframe>
         </div>
       </div>
+      <SectionCTA />
     </section>
   );
 };

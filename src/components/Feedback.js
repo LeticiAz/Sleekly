@@ -1,5 +1,6 @@
 import React from "react";
 import "./Feedback.css";
+import SectionCTA from "./SectionCTA";
 
 const Feedback = () => {
   const testimonials = [
@@ -25,6 +26,7 @@ const Feedback = () => {
           </div>
         ))}
       </div>
+      <SectionCTA />
     </section>
   );
 };
