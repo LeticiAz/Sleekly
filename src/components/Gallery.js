@@ -7,11 +7,46 @@ const Gallery = () => {
       <h2>Galeria</h2>
 
       <div className="gallery-grid">
-        {/* Substituir por embeds do Instagram */}
-        <div className="gallery-item"></div>
-        <div className="gallery-item"></div>
-        <div className="gallery-item"></div>
-        <div className="gallery-item"></div>
+        <div className="gallery-item">
+        <iframe
+            src="https://www.instagram.com/reel/DUs15QvCThR/embed"
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+          ></iframe>
+        </div>
+        <div className="gallery-item">
+          <iframe
+              src="https://www.instagram.com/reel/DPd8LavFd9g/embed"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+              allowTransparency="true"
+            ></iframe>
+        </div>
+        <div className="gallery-item">
+          <iframe
+              src="https://www.instagram.com/p/DMS5m0xNeOr/embed"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+              allowTransparency="true"
+            ></iframe>
+        </div>
+        <div className="gallery-item">
+        <iframe
+              src="https://www.instagram.com/p/DOGZQYGjhNT/embed"
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+              allowTransparency="true"
+            ></iframe>
+        </div>
       </div>
     </section>
   );

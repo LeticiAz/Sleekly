@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import AskButton from "./AskButton";
 import logo from "../resources/sleekly.png";
+import filipa from "../resources/Filipa.png";
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
 
       <div className="hero-right">
         {/* Podes trocar por <video> se quiseres */}
-        <img src="/hero-image.jpg" alt="Sleekly Service" />
+        <img src={filipa} alt="Sleekly CEO" />
       </div>
     </section>
   );
