@@ -15,6 +15,7 @@ const Gallery = () => {
             frameBorder="0"
             scrolling="no"
             allowTransparency="true"
+            title="Post 1"
           ></iframe>
         </div>
         <div className="gallery-item">
@@ -25,6 +26,7 @@ const Gallery = () => {
               frameBorder="0"
               scrolling="no"
               allowTransparency="true"
+              title="Post 2"
             ></iframe>
         </div>
         <div className="gallery-item">
@@ -35,6 +37,7 @@ const Gallery = () => {
               frameBorder="0"
               scrolling="no"
               allowTransparency="true"
+              title="Post 3"
             ></iframe>
         </div>
         <div className="gallery-item">
@@ -45,6 +48,7 @@ const Gallery = () => {
               frameBorder="0"
               scrolling="no"
               allowTransparency="true"
+              title="Post 4"
             ></iframe>
         </div>
       </div>
