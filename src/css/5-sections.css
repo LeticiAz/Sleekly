@@ -1,0 +1,133 @@
+/* === HERO === */
+.hero {
+  display: flex;
+  height: 100vh;
+}
+
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  background-color: var(--beige);
+}
+
+.hero-logo {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+/* === COMPANY === */
+.company {
+  text-align: center;
+}
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.company-card {
+  background-color: white;
+  border-radius: var(--radius-soft);
+  padding: 40px;
+  box-shadow: var(--soft-shadow);
+  transition: 0.3s ease;
+}
+
+.company-card:hover {
+  transform: translateY(-4px);
+}
+
+/* === SERVICES === */
+
+.services {
+  padding: 100px 80px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.tabs {
+  margin-bottom: 40px;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 12px 24px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.tabs button.active.clean {
+  background-color: var(--clean);
+}
+
+.tabs button.active.confort {
+  background-color: var(--confort);
+}
+
+.tabs button.active.care {
+  background-color: var(--care);
+}
+
+.tab-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.services .tab-content {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+
+/* === FEEDBACK === */
+
+.feedback {
+  text-align: center;
+}
+
+.feedback-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.feedback-card {
+  max-width: 300px;
+  padding: 30px;
+  background: var(--soft-grey);
+  border-radius: var(--radius-soft);
+}
+
+/* === GALLERY === */
+
+.gallery {
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gallery-item {
+  background: var(--soft-grey);
+  height: 940px;
+  border-radius: var(--radius-soft);
+  overflow: hidden;
+}

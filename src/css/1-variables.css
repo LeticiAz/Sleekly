@@ -1,0 +1,24 @@
+:root {
+
+    /* === CORES PRINCIPAIS SLEEKLY === */
+  
+    --clean: #F85BBF;       /* Rosa mais elegante */
+    --confort: #2FA4E7;     /* Azul mais suave */
+    --care: #6BCB77;        /* Verde mais natural */
+  
+    /* Neutros inspirados na imagem */
+    --beige: #F5F3EF;
+    --warm-white: #FAFAF8;
+    --soft-grey: #EAEAEA;
+    --medium-grey: #BFBFBF;
+    --dark-grey: #2E2E2E;
+  
+    /* Tipografia */
+    --font-main: 'Inter', sans-serif;
+  
+    /* Sombras */
+    --soft-shadow: 0 8px 30px rgba(0,0,0,0.05);
+  
+    /* Bordas */
+    --radius-soft: 12px;
+  }

@@ -1,0 +1,19 @@
+.text-center {
+    text-align: center;
+  }
+  
+  .mt-40 {
+    margin-top: 40px;
+  }
+  
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  
+  .shadow {
+    box-shadow: var(--soft-shadow);
+  }
+  
+  .rounded {
+    border-radius: var(--radius-soft);
+  }

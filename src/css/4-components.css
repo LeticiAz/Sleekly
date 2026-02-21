@@ -1,0 +1,76 @@
+/* === BOTÕES GERAIS === */
+.ask-button {
+  background-color: var(--clean);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: var(--soft-shadow);
+}
+
+.ask-button:hover {
+  transform: translateY(-2px);
+}
+
+.btn {
+    padding: 14px 28px;
+    border-radius: var(--radius-soft);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .btn-clean {
+    background-color: var(--clean);
+    color: white;
+  }
+  
+  .btn-confort {
+    background-color: var(--confort);
+    color: white;
+  }
+  
+  .btn-care {
+    background-color: var(--care);
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  
+  /* === TABS === */
+  
+  .tabs {
+    margin-bottom: 40px;
+  }
+  
+  .tabs button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    border: none;
+    background: var(--soft-grey);
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  
+  .tabs button.active.clean {
+    background-color: var(--clean);
+    color: white;
+  }
+  
+  .tabs button.active.confort {
+    background-color: var(--confort);
+    color: white;
+  }
+  
+  .tabs button.active.care {
+    background-color: var(--care);
+    color: white;
+  }

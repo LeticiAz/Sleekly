@@ -9,9 +9,9 @@ const Footer = () => {
       <img src={logo} alt="Sleekly Logo" className="hero-logo" />
 
       <div className="footer-info">
-        <p>+351 912 345 678</p>
+        <p>+351 914 315 428</p>
         <p>geral@sleekly.pt</p>
-        <a href="https://instagram.com/sleekly.pt" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/sleeklyclean/" target="_blank" rel="noreferrer">
           Instagram
         </a>
       </div>

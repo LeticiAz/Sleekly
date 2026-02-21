@@ -1,5 +1,4 @@
 import React from "react";
-import "./Company.css";
 import SectionCTA from "./SectionCTA";
 
 const Company = () => {

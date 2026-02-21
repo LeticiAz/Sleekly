@@ -1,5 +1,4 @@
 import React from "react";
-import "./AskButton.css";
 
 const AskButton = () => {
   const phoneNumber = "351914315428";

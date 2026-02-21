@@ -1,5 +1,4 @@
 import React from "react";
-import "./Gallery.css";
 import SectionCTA from "./SectionCTA";
 
 const Gallery = () => {

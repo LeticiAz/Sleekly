@@ -1,5 +1,4 @@
 import React from "react";
-import "./Hero.css";
 import AskButton from "./AskButton";
 import logo from "../resources/sleekly.png";
 import filipa from "../resources/Filipa.png";

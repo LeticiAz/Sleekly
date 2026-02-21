@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Services.css";
 import AskButton from "./AskButton";
 
 const Services = () => {
@@ -19,7 +18,11 @@ const Services = () => {
         {["Clean", "Care", "Confort"].map((tab) => (
           <button
             key={tab}
-            className={activeTab === tab ? "active" : ""}
+            className={
+              activeTab === tab
+                ? `active ${tab.toLowerCase()}`
+                : tab.toLowerCase()
+            }
             onClick={() => setActiveTab(tab)}
           >
             {tab}
